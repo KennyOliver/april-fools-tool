@@ -15,7 +15,7 @@ npm i april-fools-tool
 ### Require
 
 ```ts
-const AFB = require("april-fools-tool");
+const AFT = require("april-fools-tool");
 ```
 
 ### Features
@@ -24,7 +24,7 @@ const AFB = require("april-fools-tool");
 
 ```ts
 // check if it's April Fool's
-console.log(AFB.AprilFoolsBool);
+console.log(AFT.AprilFoolsBool);
 ```
 
 #### AprilFoolsMsg()
@@ -32,7 +32,7 @@ console.log(AFB.AprilFoolsBool);
 ```ts
 // short message dependent on whether
 // AprilFoolsBool === true
-console.log(AFB.AprilFoolsMsg());
+console.log(AFT.AprilFoolsMsg());
 ```
 
 
