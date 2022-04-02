@@ -20,7 +20,7 @@ Be mischievous!
 <br />
 
 ```
-npm i april-fools-tool
+$ npm i --save @kennyoliver/april-fools-tool
 ```
 
 ---
