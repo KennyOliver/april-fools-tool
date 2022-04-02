@@ -1,3 +1,11 @@
+/**
+ * NOTE: not exported, therefore hidden from users!
+ * 
+ * Returns true/false depending on whether
+ * today is April Fool's (April 1st)
+ * 
+ * @returns boolean
+ */
 function CheckIfAprilFools(): boolean {
     const today: Date   = new Date();
     const day:   number = today.getDate();
@@ -7,12 +15,31 @@ function CheckIfAprilFools(): boolean {
     return month === 3 && day === 1;
 }
 
+
+/**
+ * Constant used to encapsulate CheckIfAprilFools()
+ * 
+ * @type boolean
+ */
 export const AprilFoolsBool: boolean = CheckIfAprilFools();
 
+/**
+ * Shorthand alias for AprilFoolsBool
+ * 
+ * @type boolean
+ */
+export const IsToday: boolean = AprilFoolsBool;
 
+
+/**
+ * Returns one of two possible strings
+ * depending on the value of AprilFoolsBool
+ * 
+ * @returns string
+ */
 export function AprilFoolsMsg(): string {
     interface EmojiObj {
-        zany: string;
+        zany:     string;
         facepalm: string;
     }
     const emoji: EmojiObj = {
@@ -30,4 +57,3 @@ export function AprilFoolsMsg(): string {
 
     return result;
 }
-

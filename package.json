@@ -15,12 +15,19 @@
     "url": "git+https://github.com/KennyOliver/april-fools-tool.git"
   },
   "keywords": [
-    "april-fools",
     "april",
+    "april-fools",
+    "emojis",
     "fools",
-    "prank",
     "fun",
-    "kenny"
+    "kenny",
+    "kennyoliver",
+    "prank",
+    "minilib",
+    "minilibrary",
+    "module",
+    "tool",
+    "typescript"
   ],
   "author": "Kenny Oliver",
   "license": "AGPL-3.0-or-later",
