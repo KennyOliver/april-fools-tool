@@ -1,7 +1,7 @@
 /**
- * NOTE: not exported, therefore hidden from users!
+ * `NOTE:` not exported, therefore hidden from users!
  * 
- * Returns true/false depending on whether
+ * Returns `true`/`false` depending on whether
  * today is April Fool's (April 1st)
  * 
  * @returns boolean
@@ -17,23 +17,23 @@ function CheckIfAprilFools(): boolean {
 
 
 /**
- * Constant used to encapsulate CheckIfAprilFools()
+ * Constant used to encapsulate `CheckIfAprilFools()`
  * 
  * @type boolean
  */
 export const AprilFoolsBool: boolean = CheckIfAprilFools();
 
 /**
- * Shorthand alias for AprilFoolsBool
+ * Cleaner shorthand alternative to `AprilFoolsBool`
  * 
  * @type boolean
  */
-export const IsToday: boolean = AprilFoolsBool;
+export const IsToday: boolean = CheckIfAprilFools();
 
 
 /**
  * Returns one of two possible strings
- * depending on the value of AprilFoolsBool
+ * depending on the value of `AprilFoolsBool`
  * 
  * @returns string
  */
