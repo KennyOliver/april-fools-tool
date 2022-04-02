@@ -1,6 +1,6 @@
 {
   "name": "@kennyoliver/april-fools-tool",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Is it April Fool's?",
   "main": "dist/index.js",
   "type": "commonjs",
